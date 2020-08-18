@@ -8,3 +8,14 @@ class Coordinate(models.Model):
 
     def __str__(self):
         return f'lat: {self.latitude} - lng: {self.longitude}'
+
+
+class DayHumidity(models.Model):
+
+    coordinate = models.ForeignKey(Coordinate, on_delete=models.CASCADE)
+
+    date = models.DateField()
+    humidity = models.IntegerField()
+
+    def __str__(self):
+        return f'Date: {self.date} - Humidity: {self.humidity}'
