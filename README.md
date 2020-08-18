@@ -13,3 +13,26 @@ For instance, if on the next five days air humidity will be greater than 70% on 
 *You should take an umbrella in these days: Monday, Tuesday and Wednesday.*
 
 **Fork this repo and send a link to the fork with your solution, please do not open pull requests.** 
+
+
+
+# Solution by Ahlan Guarnier
+
+### Featuring:
+ - Docker version 19.03.12
+ - Docker Compose version 1.26.2 
+ 
+### Starting up
+Build images:
+
+
+```
+$ docker-compose build
+```
+
+
+Start apps:
+
+```
+$ docker-compose up
+```
