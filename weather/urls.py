@@ -7,9 +7,9 @@ from weather.views import CheckTakeUmbrelaFiveDaysView
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="Oowlish Challenge - Customers API",
+      title="Weather Mini Challenge - Umbrella API",
       default_version='v1',
-      description="Customers API using Django Framework",
+      description="Umbrella API using Django Framework",
       contact=openapi.Contact(email="ahlan90@gmail.com")
    ),
    public=True,
